@@ -181,3 +181,5 @@ cv.imwrite("output.png", img)
 ![](画像へのパス"depth map")
 ```
 ![](cap.PNG "depth map")
+[Google AI Blog 「Moving Camera, Moving People: A Deep Learning Approach to
+Depth Prediction」](https://ai.googleblog.com/2019/05/moving-camera-moving-people-deep.html )より引用
