@@ -1,7 +1,7 @@
 ---
 title: "Markdownの書き方"
 date: 2021-10-27T18:16:20+09:00
-lastmod: 2021-10-31
+lastmod: 2021-10-31T18:16:20+09:00
 author: Pei
 description: 基本的なMarkdownの文法とサンプルを見てみる
 summary: 基本的なMarkdownの文法と、実際にどのように表示されるのかをまとめた
@@ -9,6 +9,8 @@ tocopen: true
 tags: ["文法"]
 categories: ["Markdown"]
 # series: []
+cover:
+    image: logo.png
 draft: false
 ---
 
