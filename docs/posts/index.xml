@@ -6,23 +6,14 @@
     <description>Recent content in Posts on 研究メモ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Tue, 26 Oct 2021 17:25:20 +0900</lastBuildDate><atom:link href="https://ktwl215.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Oct 2021 18:16:20 +0900</lastBuildDate><atom:link href="https://ktwl215.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test2</title>
-      <link>https://ktwl215.github.io/posts/test2/</link>
-      <pubDate>Tue, 26 Oct 2021 17:25:20 +0900</pubDate>
+      <title>Markdownの書き方</title>
+      <link>https://ktwl215.github.io/posts/how_to_markdown/</link>
+      <pubDate>Wed, 27 Oct 2021 18:16:20 +0900</pubDate>
       
-      <guid>https://ktwl215.github.io/posts/test2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>最初の投稿テスト</title>
-      <link>https://ktwl215.github.io/posts/test/</link>
-      <pubDate>Tue, 26 Oct 2021 17:24:11 +0900</pubDate>
-      
-      <guid>https://ktwl215.github.io/posts/test/</guid>
-      <description>ここはdescription</description>
+      <guid>https://ktwl215.github.io/posts/how_to_markdown/</guid>
+      <description>基本的なMarkdownの文法とサンプルを見てみる</description>
     </item>
     
   </channel>

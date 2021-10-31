@@ -5,16 +5,6 @@
     <link>https://ktwl215.github.io/series/</link>
     <description>Recent content in Series on 研究メモ</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language>
-    <lastBuildDate>Tue, 26 Oct 2021 17:24:11 +0900</lastBuildDate><atom:link href="https://ktwl215.github.io/series/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>testpost</title>
-      <link>https://ktwl215.github.io/series/testpost/</link>
-      <pubDate>Tue, 26 Oct 2021 17:24:11 +0900</pubDate>
-      
-      <guid>https://ktwl215.github.io/series/testpost/</guid>
-      <description></description>
-    </item>
-    
+    <language>ja-jp</language><atom:link href="https://ktwl215.github.io/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
