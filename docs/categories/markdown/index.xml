@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Markdown on 研究メモ</title>
+    <link>https://ktwl215.github.io/categories/markdown/</link>
+    <description>Recent content in Markdown on 研究メモ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Wed, 27 Oct 2021 18:16:20 +0900</lastBuildDate><atom:link href="https://ktwl215.github.io/categories/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdownの書き方</title>
+      <link>https://ktwl215.github.io/posts/how_to_markdown/</link>
+      <pubDate>Wed, 27 Oct 2021 18:16:20 +0900</pubDate>
+      
+      <guid>https://ktwl215.github.io/posts/how_to_markdown/</guid>
+      <description>基本的なMarkdownの文法とサンプルを見てみる</description>
+    </item>
+    
+  </channel>
+</rss>
