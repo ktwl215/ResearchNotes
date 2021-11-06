@@ -1,3 +1,3 @@
-# ktwl215.github.io
+
 My research notes
-https://ktwl215.github.io/
+https://ktwl215.github.io/ResearchNotes/
