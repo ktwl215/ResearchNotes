@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ja" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>研究メモ</title>
+
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="canonical" href="https://ktwl215.github.io/ResearchNotes/" />
+<link crossorigin="anonymous" href="/ResearchNotes/assets/css/stylesheet.min.6f60056d44d3f7eb69a4bc6c332b59960f3a995802bded244750232f33713c49.css" integrity="sha256-b2AFbUTT9&#43;tppLxsMytZlg86mVgCve0kR1AjLzNxPEk=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://ktwl215.github.io/ResearchNotes/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://ktwl215.github.io/ResearchNotes/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://ktwl215.github.io/ResearchNotes/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://ktwl215.github.io/ResearchNotes/apple-touch-icon.png">
+<link rel="mask-icon" href="https://ktwl215.github.io/ResearchNotes/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.88.1" />
+<link rel="alternate" type="application/rss+xml" href="https://ktwl215.github.io/ResearchNotes/index.xml">
+<link rel="alternate" type="application/json" href="https://ktwl215.github.io/ResearchNotes/index.json">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L413GV5D8B"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-L413GV5D8B', { 'anonymize_ip': false });
+}
+</script>
+<meta property="og:title" content="研究メモ" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://ktwl215.github.io/ResearchNotes/" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="研究メモ"/>
+<meta name="twitter:description" content=""/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "研究メモ",
+  "url": "https://ktwl215.github.io/ResearchNotes/",
+  "description": "",
+  "thumbnailUrl": "https://ktwl215.github.io/ResearchNotes/favicon.ico",
+  "sameAs": [
+      "https://github.com/ktwl215", "index.xml"
+  ]
+}
+</script>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://ktwl215.github.io/ResearchNotes/" accesskey="h" title="研究メモ (Alt + H)">研究メモ</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://ktwl215.github.io/ResearchNotes/series" title="Series">
+                    <span>Series</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ktwl215.github.io/ResearchNotes/categories" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ktwl215.github.io/ResearchNotes/tags" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ktwl215.github.io/ResearchNotes/archives" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://ktwl215.github.io/ResearchNotes/search" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <h1>研究の覚え書き</h1>
+    </header>
+    <section class="entry-content">
+        <p><p>Welcome to my Research Notes.</p>
+<ul>
+<li>主にプログラミング関係の備忘録</li>
+<li>ブログタイトル横の🌙と🌞でdarkモードとlightモードを切り替えられます</li>
+<li>記事に間違いがあればページ上部の「Suggest Changes」から教えてください</li>
+</ul>
+</p>
+    </section>
+    <footer class="entry-footer">
+        <div class="social-icons">
+    <a href="https://github.com/ktwl215" target="_blank" rel="noopener noreferrer me" title="Github">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+    </a>
+    <a href="index.xml" target="_blank" rel="noopener noreferrer me" title="RsS">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 11a9 9 0 0 1 9 9" />
+    <path d="M4 4a16 16 0 0 1 16 16" />
+    <circle cx="5" cy="19" r="1" />
+</svg>
+    </a>
+</div>
+
+    </footer>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover"><img loading="lazy" src="https://ktwl215.github.io/ResearchNotes/hugo.png" alt="">
+</figure>
+  <header class="entry-header">
+    <h2>Hugoで自分のサイトを作る・part3
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>HugoとGitHub Pagesを使ってサイトを構築する手順　「GitHub Pagesでの公開」</p>
+  </section>
+  <footer class="entry-footer">Posted&nbsp;·&nbsp;2021-11-06&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Pei&nbsp;|&nbsp;Updated&nbsp;·&nbsp;2021-11-06</footer>
+  <a class="entry-link" aria-label="post link to Hugoで自分のサイトを作る・part3" href="https://ktwl215.github.io/ResearchNotes/posts/hugo_tutorial/3/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover"><img loading="lazy" src="https://ktwl215.github.io/ResearchNotes/hugo.png" alt="">
+</figure>
+  <header class="entry-header">
+    <h2>Hugoで自分のサイトを作る・part2
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>HugoとGitHub Pagesを使ってサイトを構築する手順　「サイトの作成・テーマの適用・記事の作成」</p>
+  </section>
+  <footer class="entry-footer">Posted&nbsp;·&nbsp;2021-11-06&nbsp;·&nbsp;8 min&nbsp;·&nbsp;Pei&nbsp;|&nbsp;Updated&nbsp;·&nbsp;2021-11-06</footer>
+  <a class="entry-link" aria-label="post link to Hugoで自分のサイトを作る・part2" href="https://ktwl215.github.io/ResearchNotes/posts/hugo_tutorial/2/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover"><img loading="lazy" src="https://ktwl215.github.io/ResearchNotes/hugo.png" alt="">
+</figure>
+  <header class="entry-header">
+    <h2>Hugoで自分のサイトを作る・part1
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>HugoとGitHub Pagesを使ってサイトを構築する手順　「インストールと環境構築」</p>
+  </section>
+  <footer class="entry-footer">Posted&nbsp;·&nbsp;2021-11-05&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Pei&nbsp;|&nbsp;Updated&nbsp;·&nbsp;2021-11-05</footer>
+  <a class="entry-link" aria-label="post link to Hugoで自分のサイトを作る・part1" href="https://ktwl215.github.io/ResearchNotes/posts/hugo_tutorial/1/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" srcset="https://ktwl215.github.io/ResearchNotes/posts/how_to_markdown/logo_hu3322c5e0316e80b26d13a7bd313449a1_4808_360x0_resize_box_3.png 360w ,https://ktwl215.github.io/ResearchNotes/posts/how_to_markdown/logo_hu3322c5e0316e80b26d13a7bd313449a1_4808_480x0_resize_box_3.png 480w ,https://ktwl215.github.io/ResearchNotes/posts/how_to_markdown/logo.png 572w" 
+            sizes="(min-width: 768px) 720px, 100vw" src="https://ktwl215.github.io/ResearchNotes/posts/how_to_markdown/logo.png" alt="" 
+            width="572" height="176">
+</figure>
+  <header class="entry-header">
+    <h2>Markdownの書き方
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>基本的なMarkdownの文法と、実際にどのように表示されるのかをまとめた</p>
+  </section>
+  <footer class="entry-footer">Posted&nbsp;·&nbsp;2021-10-27&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Pei&nbsp;|&nbsp;Updated&nbsp;·&nbsp;2021-10-31</footer>
+  <a class="entry-link" aria-label="post link to Markdownの書き方" href="https://ktwl215.github.io/ResearchNotes/posts/how_to_markdown/"></a>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2021 <a href="https://ktwl215.github.io/ResearchNotes/">研究メモ</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+    menu.onscroll = function () {
+        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
