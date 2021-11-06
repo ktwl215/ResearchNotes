@@ -10,12 +10,12 @@ categories: []
 series: ["Hugoによるサイト作り"]
 cover:
     image: hugo.png
-draft: true
+draft: false
 ---
 
 ---
 ## Hugoとは
-オープンソースの静的サイトジェネレーターです。　[Hugoホームページ](https://gohugo.io/)  
+オープンソースの静的サイトジェネレーターです。　[<span style="color:skyblue">Hugoホームページ</span>](https://gohugo.io/)  
 動的サイト？静的サイト？などの話は置いておいて、Hugoで何が出来るのかというと、
 
 「**MarkdownファイルからHTMLファイルを自動的に生成**」出来るようになります。
@@ -36,8 +36,7 @@ draft: true
 ---
 ## Hugoのインストール
 インストールってよく分からんし…　なんとHugoのインストールはとても簡単です。  
-https://github.com/gohugoio/hugo/releases からバイナリファイルをダウンロードして
-展開するだけです。詳しく説明していきます。
+[<span style="color:skyblue">https://github.com/gohugoio/hugo/releases</span>](https://github.com/gohugoio/hugo/releases)からバイナリファイルをダウンロードして展開するだけです。詳しく説明していきます。
 
 上記サイトにアクセスしたら、自分の環境に合ったものをダウンロードしましょう。
 extendedというのは「Sass」や「SCSS」を使う際に選ぶ必要があるものです。
@@ -54,7 +53,7 @@ extendedというのは「Sass」や「SCSS」を使う際に選ぶ必要があ�
 Cドライブ直下に「Hugo」という作業用フォルダを作り、そこに展開しました。  
 ここまで来たらあと一息です！  
 中に「bin」というフォルダがあるか確認しておきましょう。
-```md {}
+```md {linenos = false}
 hugo_(ver.)_Windows-64bit
 |-bin
 |   -hugo.exe

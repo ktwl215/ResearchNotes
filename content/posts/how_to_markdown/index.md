@@ -138,7 +138,7 @@ PaperModの[デモサイト](https://adityatelange.github.io/hugo-PaperMod/)
 ```
 > PaperMod[^1]  is a simple but fast and responsive theme with useful feature-set that enhances UX.
 [^1]: PaperModとはHugoのテーマの１つで、このサイトで使用しているものです。
-PaperModの[デモサイト](https://adityatelange.github.io/hugo-PaperMod/)
+PaperModの[<span style="color:skyblue">デモサイト</span>](https://adityatelange.github.io/hugo-PaperMod/)
 
 ---
 ## コード
@@ -183,5 +183,5 @@ cv.imwrite("output.png", img)
 ![](画像へのパス"depth map")
 ```
 ![](cap.PNG "depth map")
-[Google AI Blog 「Moving Camera, Moving People: A Deep Learning Approach to
-Depth Prediction」](https://ai.googleblog.com/2019/05/moving-camera-moving-people-deep.html )より引用
+[<span style="color:skyblue">Google AI Blog 「Moving Camera, Moving People: A Deep Learning Approach to
+Depth Prediction」</span>](https://ai.googleblog.com/2019/05/moving-camera-moving-people-deep.html )より引用

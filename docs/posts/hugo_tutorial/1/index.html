@@ -113,8 +113,8 @@ if (!doNotTrack) {
   "keywords": [
     "hugo"
   ],
-  "articleBody": " Hugoとは オープンソースの静的サイトジェネレーターです。　Hugoホームページ\n動的サイト？静的サイト？などの話は置いておいて、Hugoで何が出来るのかというと、\n「MarkdownファイルからHTMLファイルを自動的に生成」出来るようになります。\nなぜわざわざHugoを使ってHTMLファイルを作るのか。Hugoが選ばれる理由はいくつかあると思いますが、\n コンテンツを全てファイルで管理できる（データベース不必要） 多くの公開テーマを利用できる 拡張性が高い 静的サイトジェネレーターの中でかなり高速らしい  この辺りが自分がHugoを選んだ理由です。\n見た目のいいサイトを作りたい！でもHTMLとかCSSを０から学ぶのは大変…\nじゃあそこはHugoに丸投げしちゃって、自分はMarkdownで記事を書くことだけに集中しよう！ あとはヨロシク！こんなことが出来ちゃうのが「Hugo」です。すごいね。\n Hugoのインストール インストールってよく分からんし…　なんとHugoのインストールはとても簡単です。\nhttps://github.com/gohugoio/hugo/releases からバイナリファイルをダウンロードして 展開するだけです。詳しく説明していきます。\n上記サイトにアクセスしたら、自分の環境に合ったものをダウンロードしましょう。 extendedというのは「Sass」や「SCSS」を使う際に選ぶ必要があるものです。 何それ？という方はextendedでは無い方を選んでおきましょう。\n自分の環境では、「hugo_(ver.)_Windows-64bit.zip」をダウンロードしました。\nただし、テーマによってはextended必須のものもあるらしい。\nダウンロード出来たら中身を適当なディレクトリに展開します。\nCドライブ直下に「Hugo」という作業用フォルダを作り、そこに展開しました。\nここまで来たらあと一息です！\n中に「bin」というフォルダがあるか確認しておきましょう。\n1 2 3 4 5  hugo_(ver.)_Windows-64bit |-bin | -hugo.exe | -LICENSE | -README.md    環境変数の設定 ダウンロードが済んだらPathを通しましょう。\n「コントロールパネル」を開いて、「システム」→「システムの詳細設定」から\n「環境変数」を開きます。\nまたは、「Windowsスタートメニュー」を右クリックし「ファイル名を指定して実行」 「sysdm.cpl」→「詳細設定」→「環境変数」でも開けます。（豆知識）\n「Path」を選んで「編集」します。\n「新規」からこのようにPathの設定が出来ればOK！\n先ほど確認した「bin」までのPathです。\n 動作確認 では最後に動作確認をしておきましょう。 コマンドプロンプトを開き、hugo helpを実行します。\nこのようにヘルプが表示されていれば、正常にインストール出来ています。\n Hugoによるサイト作りシリーズ\n",
-  "wordCount" : "1123",
+  "articleBody": " Hugoとは オープンソースの静的サイトジェネレーターです。　Hugoホームページ\n動的サイト？静的サイト？などの話は置いておいて、Hugoで何が出来るのかというと、\n「MarkdownファイルからHTMLファイルを自動的に生成」出来るようになります。\nなぜわざわざHugoを使ってHTMLファイルを作るのか。Hugoが選ばれる理由はいくつかあると思いますが、\n コンテンツを全てファイルで管理できる（データベース不必要） 多くの公開テーマを利用できる 拡張性が高い 静的サイトジェネレーターの中でかなり高速らしい  この辺りが自分がHugoを選んだ理由です。\n見た目のいいサイトを作りたい！でもHTMLとかCSSを０から学ぶのは大変…\nじゃあそこはHugoに丸投げしちゃって、自分はMarkdownで記事を書くことだけに集中しよう！ あとはヨロシク！こんなことが出来ちゃうのが「Hugo」です。すごいね。\n Hugoのインストール インストールってよく分からんし…　なんとHugoのインストールはとても簡単です。\nhttps://github.com/gohugoio/hugo/releasesからバイナリファイルをダウンロードして展開するだけです。詳しく説明していきます。\n上記サイトにアクセスしたら、自分の環境に合ったものをダウンロードしましょう。 extendedというのは「Sass」や「SCSS」を使う際に選ぶ必要があるものです。 何それ？という方はextendedでは無い方を選んでおきましょう。\n自分の環境では、「hugo_(ver.)_Windows-64bit.zip」をダウンロードしました。\nただし、テーマによってはextended必須のものもあるらしい。\nダウンロード出来たら中身を適当なディレクトリに展開します。\nCドライブ直下に「Hugo」という作業用フォルダを作り、そこに展開しました。\nここまで来たらあと一息です！\n中に「bin」というフォルダがあるか確認しておきましょう。\nhugo_(ver.)_Windows-64bit |-bin | -hugo.exe | -LICENSE | -README.md  環境変数の設定 ダウンロードが済んだらPathを通しましょう。\n「コントロールパネル」を開いて、「システム」→「システムの詳細設定」から\n「環境変数」を開きます。\nまたは、「Windowsスタートメニュー」を右クリックし「ファイル名を指定して実行」 「sysdm.cpl」→「詳細設定」→「環境変数」でも開けます。（豆知識）\n「Path」を選んで「編集」します。\n「新規」からこのようにPathの設定が出来ればOK！\n先ほど確認した「bin」までのPathです。\n 動作確認 では最後に動作確認をしておきましょう。 コマンドプロンプトを開き、hugo helpを実行します。\nこのようにヘルプが表示されていれば、正常にインストール出来ています。\n Hugoによるサイト作りシリーズ\n",
+  "wordCount" : "1158",
   "inLanguage": "ja",
   "image":"https://ktwl215.github.io/hugo.png","datePublished": "2021-11-05T14:44:01+09:00",
   "dateModified": "2021-11-05T14:44:01+09:00",
@@ -245,7 +245,7 @@ if (!doNotTrack) {
 
   <div class="post-content"><hr>
 <h2 id="hugoとは">Hugoとは<a hidden class="anchor" aria-hidden="true" href="#hugoとは">#</a></h2>
-<p>オープンソースの静的サイトジェネレーターです。　<a href="https://gohugo.io/">Hugoホームページ</a><br>
+<p>オープンソースの静的サイトジェネレーターです。　<a href="https://gohugo.io/"><span style="color:skyblue">Hugoホームページ</span></a><br>
 動的サイト？静的サイト？などの話は置いておいて、Hugoで何が出来るのかというと、</p>
 <p>「<strong>MarkdownファイルからHTMLファイルを自動的に生成</strong>」出来るようになります。</p>
 <p>なぜわざわざHugoを使ってHTMLファイルを作るのか。Hugoが選ばれる理由はいくつかあると思いますが、</p>
@@ -262,8 +262,7 @@ if (!doNotTrack) {
 <hr>
 <h2 id="hugoのインストール">Hugoのインストール<a hidden class="anchor" aria-hidden="true" href="#hugoのインストール">#</a></h2>
 <p>インストールってよく分からんし…　なんとHugoのインストールはとても簡単です。<br>
-<a href="https://github.com/gohugoio/hugo/releases">https://github.com/gohugoio/hugo/releases</a> からバイナリファイルをダウンロードして
-展開するだけです。詳しく説明していきます。</p>
+<a href="https://github.com/gohugoio/hugo/releases"><span style="color:skyblue">https://github.com/gohugoio/hugo/releases</span></a>からバイナリファイルをダウンロードして展開するだけです。詳しく説明していきます。</p>
 <p>上記サイトにアクセスしたら、自分の環境に合ったものをダウンロードしましょう。
 extendedというのは「Sass」や「SCSS」を使う際に選ぶ必要があるものです。
 何それ？という方はextendedでは無い方を選んでおきましょう。<br>
@@ -277,23 +276,12 @@ extendedというのは「Sass」や「SCSS」を使う際に選ぶ必要があ�
 <p>Cドライブ直下に「Hugo」という作業用フォルダを作り、そこに展開しました。<br>
 ここまで来たらあと一息です！<br>
 中に「bin」というフォルダがあるか確認しておきましょう。</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
-<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md">hugo_(ver.)_Windows-64bit
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md">hugo_(ver.)_Windows-64bit
 |-bin
 |   -hugo.exe
 |   -LICENSE
 |   -README.md
-</code></pre></td></tr></table>
-</div>
-</div><hr>
+</code></pre></div><hr>
 <h2 id="環境変数の設定">環境変数の設定<a hidden class="anchor" aria-hidden="true" href="#環境変数の設定">#</a></h2>
 <p>ダウンロードが済んだらPathを通しましょう。<br>
 「コントロールパネル」を開いて、「システム」→「システムの詳細設定」から<br>
@@ -325,6 +313,11 @@ extendedというのは「Sass」や「SCSS」を使う際に選ぶ必要があ�
       <li><a href="https://ktwl215.github.io/tags/hugo/">hugo</a></li>
     </ul>
 <nav class="paginav">
+  <a class="prev" href="https://ktwl215.github.io/posts/hugo_tutorial/2/">
+    <span class="title">« 前のページ</span>
+    <br>
+    <span>Hugoで自分のサイトを作る・part2</span>
+  </a>
   <a class="next" href="https://ktwl215.github.io/posts/how_to_markdown/">
     <span class="title">次のページ »</span>
     <br>
